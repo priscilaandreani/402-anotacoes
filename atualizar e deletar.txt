@@ -1,0 +1,37 @@
+topcursos.ga
+freetutorials.us
+heroku.com
+themoviedb.org
+
+CROSS 
+Cross origin resource sharing 
+Permição de acesso a dominínios
+
+    npm install cors 
+    const cors = require('cors');
+    app.use(cors());
+
+domínio:  nome amigável para o servidor
+Middleware:O middleware é o software que se encontra entre o sistema operacional e os aplicativos nele executados. (https://azure.microsoft.com/pt-br/overview/what-is-middleware/)
+APIs Rest (https://becode.com.br/o-que-e-api-rest-e-restful/)
+Bibilioteca de validação e conversa com servidor: MONGOOSE;
+A validação é muito mais segura no beckend;
+Fishing 
+Ctrl+F2 = muda todas as ocorrencias de uma vez só;
+
+Atualizar
+    updateOne: atualizar informações da api 
+    app.put('/churro/id, (req, res) => {
+        let query = {
+            _id:ObjectID(req.params.id)
+        };
+    });
+
+Deletar
+    delete: apagar dados do banco
+    app.delete('/churro/id, (req, res) => {
+        let query = {
+            _id:ObjectID(req.params.id)
+        };
+    });
+
